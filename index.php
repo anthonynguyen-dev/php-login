@@ -5,25 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sign Up</title>
-    <lunk rel="stylesheet" href="style.css" />
-    
-    </head>
-    <body>
-    <h1>Sign Up</h1>
-  <form action="signup.php" method="post">
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required><br>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-4">Sign Up</h1>
+    <form action="signup.php" method="post">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" class="form-control" id="username" name="username" required>
+      </div>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required><br>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password" name="password" required>
+      </div>
 
-    <input type="submit" value="Sign Up">
-  </form>
-            
-        </div>
-        <script src="script.js"></script>
-    </body>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+  </div>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
 </html>
