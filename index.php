@@ -13,12 +13,12 @@
     <form action="signup.php" method="post">
       <div class="form-group">
         <label for="username">Username:</label>
-        <input type="text" class="form-control" id="username" name="username" required>
+        <input type="text" class="form-control" id="usernameSignUp" name="username" required>
       </div>
 
       <div class="form-group">
         <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email" name="email" required>
+        <input type="email" class="form-control" id="emailSignUp" name="email" required>
       </div>
 
       <div class="form-group">
@@ -26,7 +26,7 @@
         <input type="password" class="form-control" id="password" name="password" required>
       </div>
 
-      <button type="submit" class="btn btn-primary">Sign Up</button>
+      <button type="submit" class="btn btn-primary" id="signUp">Sign Up</button>
     </form>
   </div>
   
