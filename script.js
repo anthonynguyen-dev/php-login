@@ -28,4 +28,7 @@ function validPassword() {
   }
 }
 
-signUp.addEventListener("submit");
+function handleSubmit() {
+  const usernameInput = document.getElementById("usernameSignUp").value;
+  const passwordInput = document.getElementById("passwordSignUp").value;
+}
